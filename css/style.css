@@ -75,20 +75,17 @@ body {
   margin-left: 15px;
 }
 .container {
-  display: flex; 
+  display: flex;
   margin: 100px;
-  align-items: center;
 }
 .left-block {
   display: flex;
   flex-direction: column;
   flex: 3.5;
-  
 }
 .right-block {
   display: flex;
   flex: 1;
-  
 }
 .top-block {
   display: flex;
