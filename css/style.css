@@ -45,3 +45,22 @@ body {
 .img-border1 {
   border: 3px solid rgba(255, 255, 255, 0.5);
 }
+.card2 {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
+}
+.card3 {
+  color: hsl(217, 19%, 35%);
+  background-color: hsl(0, 0%, 100%);
+}
+.card4 {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 100%);
+}
+.img-border2 {
+  border: 3px solid rgba(117, 65, 200, 0.5);
+}
+.card5 {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+}
