@@ -12,7 +12,7 @@ body {
 .card {
   border-radius: 10px;
   padding: 25px 30px;
-  margin: 15px;
+  /* margin: 15px; */
 }
 .card-img {
   width: 40px;
@@ -77,11 +77,14 @@ body {
 .container {
   display: flex;
   margin: 100px;
+  gap: 30px;
 }
 .left-block {
   display: flex;
   flex-direction: column;
   flex: 3.5;
+  justify-content: space-between;
+  gap: 30px;
 }
 .right-block {
   display: flex;
@@ -89,7 +92,9 @@ body {
 }
 .top-block {
   display: flex;
+  gap: 30px;
 }
 .bottom-block {
   display: flex;
+  gap: 30px;
 }
