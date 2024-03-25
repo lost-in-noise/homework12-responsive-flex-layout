@@ -12,19 +12,19 @@ body {
 .card {
   border-radius: 10px;
   padding: 25px 30px;
-  margin: 10px;
+  margin: 15px;
 }
 .card-img {
-  width: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
-  margin-top: 3px;
 }
 .card-name {
   font-size: 15px;
 }
 .card-title {
   opacity: 50%;
-  margin-top: 3px;
+  margin-top: 4px;
 }
 .card-quote {
   font-weight: 600;
@@ -63,4 +63,36 @@ body {
 .card5 {
   background-color: hsl(0, 0%, 100%);
   color: hsl(219, 29%, 14%);
+}
+/* flex styles */
+.card-img-wraper {
+  display: flex;
+  align-items: center;
+}
+.card-name-wraper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.container {
+  display: flex; 
+  margin: 100px;
+  align-items: center;
+}
+.left-block {
+  display: flex;
+  flex-direction: column;
+  flex: 3.5;
+  
+}
+.right-block {
+  display: flex;
+  flex: 1;
+  
+}
+.top-block {
+  display: flex;
+}
+.bottom-block {
+  display: flex;
 }
